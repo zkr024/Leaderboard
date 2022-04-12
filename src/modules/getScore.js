@@ -7,6 +7,7 @@ const getScore = form.addEventListener('submit', (e) => {
   newScore.addScore(participant.value, score.value);
   newScore.save();
   updateList();
+  form.reset();
 });
 
 export default getScore;
