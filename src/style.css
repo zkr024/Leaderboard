@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 35px 0 35px 30px;
+  font-size: 50px;
+}
+
+section,
+.recent,
+.position,
+.addScore,
+.input {
+  display: flex;
+}
+
+.recent h3,
+.addScore h3 {
+  font-size: 30px;
+}
+
+.scoresList {
+  width: 50%;
+}
+
+.recent {
+  justify-content: space-between;
+  padding: 0 150px 0 65px;
+}
+
+button {
+  font-size: 15px;
+  padding: 5px 20px;
+  background: #fff;
+  box-shadow: 2px 2px;
+}
+
+#list {
+  margin: 25px 150px 0 65px;
+  border: 2px solid #000;
+}
+
+.position {
+  padding: 3px;
+}
+
+.newColor {
+  background: #ddd;
+}
+
+.player {
+  width: 60px;
+}
+
+.addScore,
+.input {
+  flex-direction: column;
+  width: 50%;
+}
+
+.input {
+  margin-top: 25px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.submit {
+  width: 100px;
+  align-self: flex-end;
+}
