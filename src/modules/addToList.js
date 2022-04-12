@@ -3,8 +3,9 @@ import { list } from './variables.js';
 
 const updateList = () => {
   list.innerHTML = '';
-  if (storeRecords() !== undefined) {
-    storeRecords().forEach((element) => {
+  const scoreData = storeRecords();
+  if (scoreData !== undefined) {
+    scoreData.forEach((element) => {
       list.innerHTML += `
 				<li class="position">
 					<div class="player">${element.name}: </div>
