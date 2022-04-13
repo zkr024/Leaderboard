@@ -1,4 +1,8 @@
 import './style.css';
-import loadEvents from './modules/loadEvents.js';
+import getScore from './modules/getScore.js';
+import getFromAPI from './modules/getFromAPI.js';
+import refresh from './modules/reset.js';
 
-loadEvents();
+getFromAPI();
+getScore;
+refresh;
