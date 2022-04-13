@@ -7,6 +7,8 @@ Use Js to add functionality:
 -Modules to separate functions.
 Use webpack to compile all the files.
 
+- Background taken from Pinterest - Mortal Kombat game.
+
 ## Built With:
 
 - HTML.
