@@ -21,9 +21,28 @@ Use webpack to compile all the files.
   _Lighthouse_
   _esLint_
 
-## Live Demo
+## API information
 
-soon
+    The Leaderboard API service was created by Microvere.
+    Base URL: https://us-central1-js-capstone-backend.cloudfunctions.net/api/
+    To create a game, send a POST action to Base URL + /games, with the name of the game. Parameters example for POST action:
+    
+{
+    "name": "my Game"
+}
+
+    Return value: unique identifier for the game
+
+{
+    "result": "Game with ID: eGQEQDjegs1D0sJkE8LU added."
+}
+
+    To submit a score, send a POST action to Base URL + /games/ + :id + /scores/. E.g: Base URL/games.eGQEQDjegs1D0sJkE8LU/scores/. Parameters example for POST action:
+
+{ 
+    "user": "John Doe",
+    "score": 42
+}
 
 ## Getting Started
 
