@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Leader-Board</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1>Leader-board</h1>
+    <section>
+        <div class="scoresList">
+            <div class="recent">
+                <h3>Recent scores</h3>
+                <button class="reset" type="reset">Refresh</button>
+            </div>
+            <ul id="list">
+                <!-- <li class="position ${colorBackground(count)}">
+                    <div class="player">${value.user}: </div>
+                    <div class="result">${value.score}</div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="addScore">
+            <h3>Add your score</h3>
+            <form class="input">
+                <input class="name" type="text" placeholder="Your name" required>
+                <input class="score" type="number" placeholder="Your score" required>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
