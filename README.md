@@ -45,7 +45,7 @@ Use webpack to compile all the files.
 
 { 
     "user": "John Doe",
-    "score": 42
+    "score": 43
 }
 
 ## Getting Started
